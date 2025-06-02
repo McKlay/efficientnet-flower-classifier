@@ -1,0 +1,32 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.log
+
+# === Virtual Environments ===
+.env/
+.venv/
+env/
+venv/
+
+# === Jupyter Notebooks Checkpoints ===
+.ipynb_checkpoints/
+
+# === TensorFlow / Keras Model Files ===
+models/flower_model.h5
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Hugging Face Cache ===
+~/.cache/huggingface/
+
+# === Gradio Cache (if used locally) ===
+gradio_cached_examples/
+
+# === Optional: Ignore dataset tar if locally extracted ===
+flower_photos/
+flower_photos.tgz
